@@ -24,3 +24,4 @@ post_data={'domain':'NUIST',
            'password':'475869',
            'username':'15261806816'
           }   
+z=requests.post(post_addr,data=post_data,headers=post_header)
